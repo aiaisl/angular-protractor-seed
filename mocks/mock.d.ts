@@ -2,7 +2,7 @@ declare namespace mock {
     interface IMock {
         request: {
             path: string;
-            method: "PUT" | "DELETE" | "HEAD" | "PATCH" | "JSONP" | "GET",
+            method: "PUT" | "DELETE" | "HEAD" | "PATCH" | "JSONP" | "GET" | "POST",
             regex?: boolean,
             data?: {
                 [key: string]: any;
