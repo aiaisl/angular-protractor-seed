@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsc && protractor tmp/conf.js"
+    "test": "tsc && protractor tmp/conf.js || true"
   },
   "repository": {
     "type": "git",
