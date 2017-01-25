@@ -23,4 +23,6 @@ declare namespace mock {
             delay?: number;
         }
     }
+
+    function mock(mocks: Array<string>): void
 }
