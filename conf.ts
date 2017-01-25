@@ -1,5 +1,5 @@
 import { Config, browser } from 'protractor';
-
+import { SpecReporter } from "jasmine-spec-reporter"
 export let config: Config = {
     framework: 'jasmine',
     capabilities: {
@@ -13,6 +13,7 @@ export let config: Config = {
         require('protractor-http-mock').config = {
             protractorConfig: 'conf.js',
             rootDirectory: __dirname
-        }
+        };
+        jasmine.getEnv().addReporter(new SpecReporter());
     }
 };

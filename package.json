@@ -21,6 +21,7 @@
     "@types/jasmine": "^2.5.41",
     "@types/protractor": "^4.0.0",
     "@types/rosie": "0.0.30",
+    "jasmine-spec-reporter": "^3.2.0",
     "protractor": "^5.0.0",
     "protractor-http-mock": "^0.9.2",
     "rosie": "^1.6.0",
